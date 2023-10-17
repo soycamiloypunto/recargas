@@ -11,6 +11,8 @@ public class recargasRepository {
     private recargasRepositoryCRUD recargasRepositoryCRUD;
 
     //Save
-    public recargas save(recargas recargas){return recargasRepositoryCRUD.save(recargas)};
+    public recargas save(recargas recargas){
+        return recargasRepositoryCRUD.save(recargas);
+    }
 
 }
